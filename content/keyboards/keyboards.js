@@ -1,13 +1,13 @@
 var sitedata_keyboards = {
-    "English US": {
-        mac: "english-us_mac.html",
-        windows: "english-us.html",
-        linux: "english-us.html",
-    },
     "English UK": {
         mac: "english-uk_mac.html",
         windows: "english-uk.html",
         linux: "english-uk.html",
+    },
+    "English US": {
+        mac: "english-us_mac.html",
+        windows: "english-us.html",
+        linux: "english-us.html",
     },
     "English US Dvorak": {
         mac: "english-us-dvorak_mac.html",

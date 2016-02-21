@@ -1,0 +1,73 @@
+{
+    "name" : "Terminal",
+    "version" : "zsh",
+    "os" : "mac",
+    "mods_used" : ["ALT", "COMMAND", "CONTROL", "SHIFT"],
+    "default_context" : "Global Context",
+    "contexts" : {
+        "Global Context" : {
+            "A" : [
+                {"name":"Move to the beginning of the line", "mods":["CONTROL"]}
+            ],
+            "B" : [
+                {"name":"Move one word backward", "mods":["ALT"]}
+            ],
+            "C" : [
+                {"name":"Terminate current process", "mods":["CONTROL"]},
+                {"name":"Capitalize one word forward", "mods":["ALT"]}
+            ],
+            "D" : [
+                {"name":"Delete the word after the cursor", "mods":["ALT"]}
+            ],
+            "E" : [
+                {"name":"Move to the end of the line", "mods":["CONTROL"]}
+            ],
+            "F" : [
+                {"name":"Move one word forward", "mods":["ALT"]}
+            ],
+            "G" : [
+                {"name":"Escape from search history", "mods":["CONTROL"]}
+            ],
+            "K" : [
+                {"name":"Clear characters after the cursor", "mods":["CONTROL"]}
+            ],
+            "L" : [
+                {"name":"Clear the screen", "mods":["CONTROL"]}
+            ],
+            "N" : [
+                {"name":"Next command in history", "mods":["CONTROL"]}
+            ],
+            "P" : [
+                {"name":"Previous command in history", "mods":["CONTROL"]}
+            ],
+            "Q" : [
+                {"name":"Restart screen output", "mods":["CONTROL"]}
+            ],
+            "R" : [
+                {"name":"Search history", "mods":["CONTROL"]}
+            ],
+            "S" : [
+                {"name":"Stop screen output", "mods":["CONTROL"]}
+            ],
+            "U" : [
+                {"name":"Clear the entire line", "mods":["CONTROL"]},
+                {"name":"Uppercase one word forward", "mods":["ALT"]}
+            ],
+            "W" : [
+                {"name":"Delete the word before the cursor", "mods":["CONTROL"]}
+            ],
+            "Z" : [
+                {"name":"Suspend current process", "mods":["CONTROL"]}
+            ],
+            "_" : [
+                {"name":"Undo the last change", "mods":["CONTROL"]}
+            ],
+            "LEFT_ARROW" : [
+                {"name":"Move one word backward", "mods":["CONTROL"]}
+            ],
+            "RIGHT_ARROW" : [
+                {"name":"Move one word forward", "mods":["CONTROL"]}
+            ]
+        }
+    }
+}
