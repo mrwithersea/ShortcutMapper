@@ -1,0 +1,42 @@
+{
+    "name" : "OS",
+    "version" : "Latest",
+    "os" : "mac",
+    "mods_used" : ["ALT", "COMMAND", "CONTROL", "SHIFT", "FN_KEY"],
+    "default_context" : "Global Context",
+    "contexts" : {
+        "Global Context" : {
+            "N" : [
+                {"name":"New window", "mods":["COMMAND"]}
+            ],
+            "Q" : [
+                {"name":"Quit app", "mods":["COMMAND"]}
+            ],
+            "T" : [
+                {"name":"New tab", "mods":["COMMAND"]},
+                {"name":"Reopen closed tab", "mods":["COMMAND","SHIFT"]}
+            ],
+            "W" : [
+                {"name":"Close tab/window", "mods":["COMMAND"]}
+            ],
+            "F3" : [
+                {"name":"Show Desktop", "mods":["COMMAND", "FN_KEY"]}
+            ],
+            "ACCENT_GRAVE" : [
+                {"name":"Switch windows", "mods":["COMMAND"]}
+            ],
+            "TAB" : [
+                {"name":"Switch apps", "mods":["COMMAND"]}
+            ],
+            "ESCAPE" : [
+                {"name":"Force quit", "mods":["ALT", "COMMAND"]}
+            ],
+            "THREE" : [
+                {"name":"Capture screen", "mods":["COMMAND", "SHIFT"]}
+            ],
+            "FOUR" : [
+                {"name":"Capture snippet", "mods":["COMMAND", "SHIFT"]}
+            ]
+        }
+    }
+}

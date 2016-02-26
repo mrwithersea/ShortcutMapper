@@ -4,15 +4,6 @@
 
 var sitedata_apps = [
     {
-        name: "Adobe Photoshop",
-        data: {
-            "v14.2": {
-                "mac": "adobe-photoshop_v14.2_mac.json",
-                "windows": "adobe-photoshop_v14.2_windows.json",
-            },
-        }
-    },
-    {
         name: "JetBrains WebStorm",
         data: {
             "10": {
@@ -22,19 +13,26 @@ var sitedata_apps = [
         }
     },
     {
-        name: "Sublime Text",
+        name: "Terminal",
         data: {
-            "v2": {
-                "mac": "sublime-text_v2_mac.json",
-                "windows": "sublime-text_v2_windows.json",
+            "latest": {
+                "mac": "terminal_mac.json"
             },
         }
     },
     {
-        name: "Terminal",
+        name: "OS",
         data: {
-            "zsh": {
-                "mac": "terminal_mac.json"
+            "latest": {
+                "mac": "os_mac.json"
+            },
+        }
+    },{
+        name: "Adobe Photoshop",
+        data: {
+            "v14.2": {
+                "mac": "adobe-photoshop_v14.2_mac.json",
+                "windows": "adobe-photoshop_v14.2_windows.json",
             },
         }
     },

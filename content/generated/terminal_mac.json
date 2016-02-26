@@ -1,6 +1,6 @@
 {
     "name" : "Terminal",
-    "version" : "zsh",
+    "version" : "latest",
     "os" : "mac",
     "mods_used" : ["ALT", "COMMAND", "CONTROL", "SHIFT"],
     "default_context" : "Global Context",
