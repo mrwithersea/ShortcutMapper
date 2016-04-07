@@ -63,10 +63,18 @@
                 {"name":"Undo the last change", "mods":["CONTROL"]}
             ],
             "LEFT_ARROW" : [
-                {"name":"Move one word backward", "mods":["CONTROL"]}
+                {"name":"Move one word backward", "mods":["CONTROL"]},
+                {"name":"Move one tab left", "mods":["COMMAND", "SHIFT"]}
             ],
             "RIGHT_ARROW" : [
-                {"name":"Move one word forward", "mods":["CONTROL"]}
+                {"name":"Move one word forward", "mods":["CONTROL"]},
+                {"name":"Move one tab right", "mods":["COMMAND", "SHIFT"]}
+            ],
+            "LEFT_BRACKET" : [
+              {"name":"Move one tab left", "mods":["COMMAND", "SHIFT"]}
+            ],
+            "RIGHT_BRACKET" : [
+              {"name":"Move one tab right", "mods":["COMMAND", "SHIFT"]}
             ]
         }
     }
